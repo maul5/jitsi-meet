@@ -2,10 +2,10 @@
 var config = {
 //    configLocation: './config.json', // see ./modules/HttpConfigFetch.js
     hosts: {
-        domain: 'jitsi-meet.example.com',
+        domain: 'jitsi.stella.pe.kr',
         //anonymousdomain: 'guest.example.com',
-        muc: 'conference.jitsi-meet.example.com', // FIXME: use XEP-0030
-        bridge: 'jitsi-videobridge.jitsi-meet.example.com', // FIXME: use XEP-0030
+        muc: 'conference.jitsi.stella.pe.kr', // FIXME: use XEP-0030
+        bridge: 'jitsi-videobridge.jitsi.stella.pe.kr', // FIXME: use XEP-0030
         //jirecon: 'jirecon.jitsi-meet.example.com',
         //call_control: 'callcontrol.jitsi-meet.example.com',
         //focus: 'focus.jitsi-meet.example.com' - defaults to 'focus.jitsi-meet.example.com'
@@ -14,7 +14,7 @@ var config = {
 //  useStunTurn: true, // use XEP-0215 to fetch STUN and TURN server
 //  useIPv6: true, // ipv6 support. use at your own risk
     useNicks: false,
-    bosh: '//jitsi-meet.example.com/http-bind', // FIXME: use xep-0156 for that
+    bosh: '//jitsi.stella.pe.kr/http-bind', // FIXME: use xep-0156 for that
     clientNode: 'http://jitsi.org/jitsimeet', // The name of client node advertised in XEP-0115 'c' stanza
     //focusUserJid: 'focus@auth.jitsi-meet.example.com', // The real JID of focus participant - can be overridden here
     //defaultSipNumber: '', // Default SIP number
